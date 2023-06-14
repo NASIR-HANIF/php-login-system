@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: #30475e;
+    padding: 20px 0px;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+header div.sign-in-up button {
+    background-color: #75cfb8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 12px;
+    outline: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+header div.sign-in-up button:last-child {
+    background-color: #fa9579;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.login-box {
+    background-color: #f0f0f0;
+    width: 350px;
+    border: 5px;
+    padding: 20px 25px 30px 25px;
+}
+
+.login-box h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #30475e;
+}
+
+.login-box h2 button {
+    color: #797775;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.login-box input {
+    color: #797775;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #30475e;
+    outline: none;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 0px;
+    padding: 5px 0px;
+}
+
+.login-box .login-btn,.regester .regester-btn {
+    border: none;
+    margin-top: 20px;
+    background-color: #30475e;
+    outline: none;
+    font-size: 17px;
+    font-weight: 550;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+ .regester h2 {
+    color: #fa9579;
+}
+
+ .regester input {
+    border-bottom: 2px solid #fa9579;
+}
+
+.regester .regester-btn{
+    background-color: #fa9579;
+  
+}
